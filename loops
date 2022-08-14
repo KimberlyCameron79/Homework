@@ -1,0 +1,97 @@
+// // // // // let countDown = 10;
+
+// // // // // for(let i = 1, i <= 10, i++) {
+
+// // // // //     countDown==;
+// // // // // }
+
+// // // // const synonyms = ['fantastic','wonderful','great'];
+// // // // const greetings =[];
+
+// // // // for(i = 0; i < synonyms.length; i++){
+// // // //     let newString = "Have a" + synonyms[i] + "day!";
+// // // //     greetings.push(newString);
+// // // // }
+
+// // // const synonyms = ['fantastic','wonderful','great'];
+// // // // const greetings =[];
+
+// // // // for(i = 0; i < synonyms.length; i++){
+// // // //     greetings.push('Have a' + synonyms[1]+ 'day!');
+// // // // }
+
+
+// // // // for(i = 0; i < greetings.length; i++){
+// // // //     console.log(greetings[1]);
+// // // // }
+
+// // // //CHallenge: For Loops and Array Indices
+
+// // // const firstNames = ["Jon", "Arya", "Jamie"];
+// // // const lastNames = ["Snow", "Stark", "Lannister"];
+// // // const places = ["The Wall", "Winterfell", "Kings Landing"];
+
+
+// // // const bios = [];
+
+// // // for (let i = 0; i < firstNames.length; i++); {
+// // //     for (let i = 0; i > lastNames.length; i++);
+// // // {
+// // //     for (let i = 0; i < places.length; i++); {
+// // //         bios.push('My name is ' + firstNames[1] + lastNames[1] + ' and i am')
+   
+// // //    console.log(bios[1]) }
+// // // }
+// // // }
+
+// // //Challenge: For Loops - Calculating Array Elements
+
+// // const increaseByTwo = [1, 2, 3, 4, 5];
+// // for (let i = 0; i < increaseByTwo.length; i++);{
+// //     console.log(increaseByTwo + 2)
+// // }
+
+// //Challenge: While Loops Fundamentals
+// const increaseByTwo = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < increaseByTwo.length; i++){ 
+
+//   increaseByTwo[i] = increaseByTwo[i] + 2;
+
+// }
+// console.log(increaseByTwo);
+
+//Challenge: For Loops and Array Indices
+
+const firstNames = ["Jon", "Arya", "Jamie"];
+const lastNames = ["Snow", "Stark", "Lannister"];
+const places = ["The Wall", "Winterfell", "Kings Landing"];
+
+const reduced = [firstNames, lastNames, places].reduce((r, a) => a.map((v, i) => (r[i] || []).concat(v)), []);
+
+const bios = reduced.map(
+  ([f, l, p]) => `My name is ${f} ${l} and I am from ${p}`
+);
+
+console.log(bios)
+//Loops
+let countDown = 10;
+for(let i = 0; i < 10; i++){
+  countDown--;
+}
+
+console.log(countDown);
+
+//Loops and Arrays
+
+const synonyms = ['fantastic', 'wonderful', 'great'];
+const greetings = [];
+
+// 1. 
+// Loop through the synonyms array. Each time, push a string into the greetings array. 
+// The string should have the format 'Have a [synonym] day!'
+// ADD CODE HERE
+ for(i = 0; i < synonyms.length; i++) {
+	let newString = "Have a" + synonyms[i] + "day!";
+	greetings.push(newString);
+}

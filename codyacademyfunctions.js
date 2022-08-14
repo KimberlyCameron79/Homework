@@ -211,3 +211,8 @@
 
 // const target = numberClusters[2][1];
 
+let countDown = 10;
+
+for (let i = 1, i <= 10, i++); {
+    countDown==;
+}
