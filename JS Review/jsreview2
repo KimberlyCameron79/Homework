@@ -91,3 +91,16 @@ wolfy.unshift("Gameboy");
 console.log(wolfy);
 console.log(porgee);
 console.log("Wild Wild Life answered");
+
+
+//YELL AT THE NINIJA TURTLES
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+
+for (const element of ninjaTurtles) {
+  console.log(ninjaTurtles);
+}
+        
+
+console.log("Yell at the Ninja Turtles answered");
